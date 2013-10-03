@@ -1,0 +1,89 @@
+.row{
+text-align:center;
+padding:20px 0px;
+}
+
+#header{
+  
+}
+
+#instaFeed{
+padding: 0px 100px;
+}
+
+#spotFeed{
+}
+
+#search-bar {
+ 
+}
+
+#search-bar input[type="search"] {
+  display: inline-block;
+  width: 50%;
+  margin-top: 10px;
+  margin-left:20%;    
+  height: 30px;
+}
+
+#search-bar input[type="button"] {
+  display: inline-block;
+  margin-top: 10px;
+  height: 30px;
+}
+
+.spinner {
+  padding-top: 23px;
+  display: none;
+}
+
+
+/* Custom container */
+.container {
+  margin: 0 auto;
+  text-align:center;
+}
+.container > hr {
+  margin: 60px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+}
+.jumbotron h1 {
+  font-size: 100px;
+  line-height: 1;
+}
+
+
+.meta {
+  text-align: left;
+  margin-bottom: 10px;
+  color: #285e8e;
+  font-weight: bold;
+}
+
+.meta img {
+  margin-right: 10px;
+  margin-left: 0px;
+}
+
+.user {
+  width: 45px;
+  margin-left: 10px;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.post {
+  max-width: 800px;
+  margin: 0px auto;
+  margin-bottom: 10px;
+}
+
+.post .image {
+  width: 100%;
+}
