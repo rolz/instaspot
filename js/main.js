@@ -7,7 +7,7 @@ $(function () {
         $("#imagesInsta").empty();
         $(".spinner").show();
         $("#search-bar .container .row").hide();
-        $.getJSON("https://api.instagram.com/v1/tags/" + t + "/media/recent?callback=?&client_id=" + e + "&count=24", s)
+        $.getJSON("https://api.instagram.com/v1/tags/" + t + "/media/recent?callback=?&client_id=" + e, s)
     }
 
     function s(e) {
@@ -28,7 +28,7 @@ $(function () {
         var e = $("#tag").val();
         r(e)
     });
-    var t = 
+    var t = {
         lines: 8,
         length: 8,
         width: 4,
