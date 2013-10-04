@@ -13,7 +13,7 @@ $(function () {
     function s(e) {
         $("#search-bar .container .row").show();
         $(".spinner").hide();
-        for (i=0;i<1;i++) {
+        for (i=0;i<10;i++) {
             var t = e.data[i];
             var n = $("<div/>").addClass("post");
             var r = $("<img/>").addClass("instaImg").attr("src", t.images.standard_resolution.url);
@@ -27,6 +27,7 @@ $(function () {
     $("#search").on("click", function () {
         var e = $("#tag").val();
         r(e)
+        
     });
     var t = {
         lines: 8,
@@ -65,11 +66,12 @@ $(function () {
         $.getJSON(url, findTrack);
     }
     
-        $("#search").click(searchSpot); 
+        $("#search").click(searchSpot);
+    
 
     function findTrack(songData){
         var i =0;
-        for (i=0;i<1;i++){
+        for (i=0;i<10;i++){
             var raw = songData.albums[i];
             var songUrl = raw.href;
     /**get cover**/   
@@ -87,6 +89,15 @@ $(function () {
         p.append(o).append(s);
         $('#imageSpot').append(p)
     }  
+    
+    var currentPosts = 0;
+    
+    $('#next').click(function(){
+        currentPosts=currentPosts+1;
+        $(".post").hide();
+        $($("#spotFeed .post")[currentPosts]).show();
+        $($("#instaFeed .post")[currentPosts]).show();
+    });
     
     
 });
