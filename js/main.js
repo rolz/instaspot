@@ -13,7 +13,7 @@ $(function () {
     function s(e) {
         $("#search-bar .container .row").show();
         $(".spinner").hide();
-        for (i in e.data) {
+        for (i=0;i<1;i++) {
             var t = e.data[i];
             var n = $("<div/>").addClass("post");
             var r = $("<img/>").addClass("instaImg").attr("src", t.images.standard_resolution.url);
@@ -69,7 +69,7 @@ $(function () {
 
     function findTrack(songData){
         var i =0;
-        for (i in songData.albums){
+        for (i=0;i<1;i++){
             var raw = songData.albums[i];
             var songUrl = raw.href;
     /**get cover**/   

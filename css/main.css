@@ -1,6 +1,6 @@
 .row{
 text-align:center;
-padding:20px 0px;
+margin-bottom:30px;
 }
 
 #header{
@@ -99,5 +99,5 @@ padding: 0px 100px;
 }
 
 .post .spotImg {
-  width: 76.3%;
+  width: 74.5%;
 }
