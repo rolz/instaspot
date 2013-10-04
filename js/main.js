@@ -16,9 +16,9 @@ $(function () {
         for (i in e.data) {
             var t = e.data[i];
             var n = $("<div/>").addClass("post");
-            var r = $("<img/>").addClass("image").attr("src", t.images.standard_resolution.url);
+            var r = $("<img/>").addClass("instaImg").attr("src", t.images.standard_resolution.url);
             var s = $("<img/>").addClass("user").attr("src", t.user.profile_picture);
-            var o = $("<div/>").addClass("meta").append(s).append("<a target='_blank' href='http://instagram.com/" + t.user.username + "'>" + t.user.full_name + "</a>");
+            var o = $("<div/>").addClass("meta-insta").append(s).append("<a target='_blank' href='http://instagram.com/" + t.user.username + "'>" + t.user.full_name + "</a>");
             n.append(o).append(r);
             $("#imagesInsta").append(n)
         }
@@ -77,10 +77,15 @@ $(function () {
             $.getJSON(coverUrl, getCoverArt);
         }
     }
+
     
     /**bring cover art**/
     function getCoverArt(coverArt){
-        $('#imageSpot').append('<img src= "'+ coverArt.thumbnail_url +'">'); 
+        var p = $("<div/>").addClass("post"); 
+        var s = $("<img/>").addClass("spotImg").attr("src", coverArt.thumbnail_url);
+        var o = $("<div/>").addClass("meta-spot").append(coverArt.title);
+        p.append(o).append(s);
+        $('#imageSpot').append(p)
     }  
     
     
