@@ -1,0 +1,252 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"src=  (attribute)"
+			],
+			[
+				"mysq",
+				"mysql_connect"
+			],
+			[
+				"mys",
+				"mysql_connect"
+			],
+			[
+				"my",
+				"mysql_connect"
+			],
+			[
+				"data",
+				"database"
+			],
+			[
+				"echo",
+				"echo"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 507.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Zac/Desktop/Work/Practice/Maps/Projects/barpassMapTest/barMap_fbase_v1/barmap/firescript.js",
+		"/Users/Zac/Desktop/Work/Practice/Maps/Projects/barpassMapTest/barMap_fbase_v1/index.html",
+		"/Users/Zac/Desktop/test.html",
+		"/Users/Zac/Desktop/Hyper/3. Toolbox/Tasks/instaspot/index.html",
+		"/Users/Zac/Desktop/Hyper/3. Toolbox/Workshops/bootstrap-workshop-master/index.html",
+		"/Users/Zac/Downloads/bootstrap-workshop-master/index.html",
+		"/Users/Zac/Desktop/Dev/Maps/Projects/markers.js",
+		"/Users/Zac/Desktop/Hyper/3. Toolbox/Workshops/HTML/1/index.html",
+		"/Users/Zac/Desktop/Dev/Practice/drinking_game/index.html",
+		"/Users/Zac/Desktop/Dev/Practice/drinking.html",
+		"/Users/Zac/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Zac/Library/Application Support/Sublime Text 3/Packages/User/HTML.sublime-settings",
+		"/Users/Zac/Desktop/Dev/Portfolio/datazac/node_modules/express/client.js",
+		"/Users/Zac/Desktop/Dev/Portfolio/datazac/node_modules/express/index.js",
+		"/Users/Zac/Desktop/Dev/Portfolio/datazac/package.json",
+		"/Users/Zac/Desktop/Dev/Portfolio/datazac/Procfile",
+		"/Users/Zac/Desktop/Dev/Portfolio/datazac/PROCFILE.txt",
+		"/Users/Zac/Desktop/Development/Practice/Node/example.js",
+		"/Users/Zac/Desktop/Data/Scrapy/tutorial/tutorial/spiders/dmoz_spider.py",
+		"/Users/Zac/Desktop/Data/Scrapy/tutorial/tutorial/items.py",
+		"/Users/Zac/Desktop/Data/Scrapy/tutorial/items.json",
+		"/Users/Zac/Desktop/Data/Scrapy/Dmoz/Dmoz/items.py",
+		"/Users/Zac/Desktop/Data/Scrapy/Dmoz/Dmoz/spiders/dmoz_spider.py",
+		"/Users/Zac/Desktop/Development/Portfolio/datazac/app/views/haribos/show.html.erb",
+		"/Users/Zac/Desktop/Development/Portfolio/datazac/app/models/haribo.rb",
+		"/Users/Zac/Desktop/Development/Portfolio/datazac/db/schema.rb",
+		"/Users/Zac/Desktop/Development/Portfolio/datazac/app/assets/stylesheets/scaffolds.css.scss",
+		"/Users/Zac/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/CHANGELOG",
+		"/Users/Zac/Desktop/Programming/PHP/mff/views/news.php.html",
+		"/Applications/MAMP/htdocs/test.php",
+		"/Users/Zac/Desktop/Programming/PHP/My First Framework/models/view.php",
+		"/Users/Zac/Desktop/Programming/PHP/My First Framework/views/news.php",
+		"/Users/Zac/Desktop/Programming/PHP/My First Framework/controllers/news.php",
+		"/Users/Zac/Desktop/Programming/PHP/My First Framework/models/news.php",
+		"/Users/Zac/Desktop/Programming/PHP/My First Framework/controllers/router.php",
+		"/Applications/MAMP/htdocs/ideas.php",
+		"/Users/Zac/Desktop/Programming/PHP/Build a Simple PHP Application/Project/datazac.php",
+		"/Users/Zac/Desktop/Programming/PHP/Build a Simple PHP Application/Project/code.php",
+		"/Users/Zac/Downloads/treehouse_movie_db.sql",
+		"/Users/Zac/Desktop/style.css",
+		"/Users/Zac/Desktop/index.html"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"/');",
+			"python",
+			"ruby",
+			"1004px"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -53,7 +53,7 @@ $(function () {
         if (e.keyCode == 13) {
             var t = $("#tag").val();
             r(t)
-            searchSpot()
+            searchSpot();
         }
     })
 })
